@@ -23,6 +23,9 @@ print(my_list)
 person = {'name': 'John', 'age': 30, 'job': 'teacher'}
 print(person['job'])
 
+person['city'] = 'Paris'
+print(person)
+
 # -----------------------------------------------------------------------------
 
 
