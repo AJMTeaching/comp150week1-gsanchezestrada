@@ -29,7 +29,8 @@ print(person)
 del person['age']
 print(person)
 
-
+for key, value in person.items():
+    print(f"{key}: {value}")
 # -----------------------------------------------------------------------------
 
 
