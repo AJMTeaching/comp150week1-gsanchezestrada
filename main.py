@@ -13,6 +13,8 @@ print(my_list)
 my_list.remove(20.5)
 print(my_list)
 
+my_list.reverse()
+print(my_list)
 
 
 # Problem 2
