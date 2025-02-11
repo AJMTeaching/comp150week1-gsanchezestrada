@@ -4,8 +4,15 @@
 # Problem 1
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
 
+my_list = [1, 5, 'apple', 20.5]
+
+
+    
+
+
 # Problem 2
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
+
 
 # -----------------------------------------------------------------------------
 
