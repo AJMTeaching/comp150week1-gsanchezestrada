@@ -6,7 +6,9 @@
 
 my_list = [1, 5, 'apple', 20.5]
 print(my_list[2]) # Prints out 'apple' instead of '5' because 0 is the computer's favorite number!
-    
+
+my_list.append(10)
+print(my_list) 
 
 
 # Problem 2
