@@ -26,6 +26,10 @@ print(person['job'])
 person['city'] = 'Paris'
 print(person)
 
+del person['age']
+print(person)
+
+
 # -----------------------------------------------------------------------------
 
 
