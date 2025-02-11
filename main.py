@@ -10,6 +10,10 @@ print(my_list[2]) # Prints out 'apple' instead of '5' because 0 is the computer'
 my_list.append(10)
 print(my_list) 
 
+my_list.remove(20.5)
+print(my_list)
+
+
 
 # Problem 2
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
