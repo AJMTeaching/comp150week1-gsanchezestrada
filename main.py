@@ -5,8 +5,7 @@
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
 
 my_list = [1, 5, 'apple', 20.5]
-
-
+print(my_list[2]) # Prints out 'apple' instead of '5' because 0 is the computer's favorite number!
     
 
 
