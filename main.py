@@ -88,6 +88,7 @@ def merge_lists(list1: list, list2: list) -> list:
     merged = []
     i, j = 0, 0 #
 
+# If "j" (list2 variable) is greater than "i", add i at end of merged list
     while i < len(list1) and j < len(list2):
         if list1[i] < list2[j]:
             merged.append(list1[i])
@@ -96,10 +97,16 @@ def merge_lists(list1: list, list2: list) -> list:
             merged.append(list2[j])
             j += 1
 
+# Adds another variable of list 1, if any left
     while i < len(list1):
         merged.append(list1[i])
         i += 1
-            
+    
+# Adds another variable of list 2, if any left
+    while j < len(list2):
+        merged.append(list2[j])
+        j += 1
+
     return merged 
 
     """
