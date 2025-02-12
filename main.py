@@ -95,6 +95,10 @@ def merge_lists(list1: list, list2: list) -> list:
         else:
             merged.append(list2[j])
             j += 1
+
+    while i < len(list1):
+        merged.append(list1[i])
+        i += 1
             
     return merged 
 
