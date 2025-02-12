@@ -141,6 +141,11 @@ def test_merge_lists():
 
 # Function 3: word_lengths
 def word_lengths(words: list) -> list:
+    lengths = []
+    for word in words:
+        lengths.append(len(word))
+    return lengths
+
     """
     Get the lengths of words in a list.
 
