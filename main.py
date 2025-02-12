@@ -48,6 +48,13 @@ def test(did_pass):
 
 # Function 1: count_vowels
 def count_vowels(s: str) -> int:
+    vowels = "aeiouAEIOU" 
+    count = 0
+
+    for char in s:
+        if char in vowels:
+            count += 1
+
     """
     Count the number of vowels in a string.
 
