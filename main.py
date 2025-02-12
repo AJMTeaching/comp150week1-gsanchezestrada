@@ -88,6 +88,15 @@ def merge_lists(list1: list, list2: list) -> list:
     merged = []
     list1, list2 = [0, 0]
 
+    while list1 < len(list1) and list2 < len(list2):
+        if list1() < list2():
+            merged.append(list1)
+            list1 += 1
+
+    while list1 < len(list1):
+        merged.append(list1)
+        list1 += 1
+    
 
     return merged 
 
