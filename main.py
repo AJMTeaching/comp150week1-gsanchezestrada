@@ -146,6 +146,8 @@ def word_lengths(words: list) -> list:
         lengths.append(len(word))
     return lengths
 
+# Line 171 does not work because "longesttttt" is 11 letters.
+
     """
     Get the lengths of words in a list.
 
