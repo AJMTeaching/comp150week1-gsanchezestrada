@@ -175,6 +175,11 @@ def test_word_lengths():
 
 # Function 4: reverse_string
 def reverse_string(s: str) -> str:
+    reversed_s = ""
+    for char in s:
+        reversed_s = char + reversed_s
+    return reversed_s
+
     """
     Reverse a string.
 
@@ -203,6 +208,20 @@ def test_reverse_string():
 
 # Function 5: intersection
 def intersection(list1: list, list2: list) -> list:
+    count_dict = {}
+    result = []
+
+    for item in list1:
+        if item not in count_dict:
+            if item not in count_dict:
+                count_dict[item] = 1
+
+    for item in list2:
+        if item in count_dict and item not in result:
+            result.append(item)
+
+    return result 
+
     """
     Find the intersection of two lists.
 
